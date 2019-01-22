@@ -1,8 +1,9 @@
 canvas{
     border: 1px solid black;
 }
-div{
-    border: 1px solid red;
+.regular{
+    border: 1px solid black;
+    font-style: normal;
 }
 .error{
     border: 1px solid red;
@@ -10,7 +11,7 @@ div{
 }
 
 .engaged{
-    border: 1px solid green;
+    border: 2px solid green;
     font-style: bold;
 }
 

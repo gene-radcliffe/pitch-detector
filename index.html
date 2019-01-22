@@ -1,24 +1,27 @@
-<!DOCTYPE html>
 <html>
-<head>
+   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bass-tuner-beta</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="basstuner.css" />
+    <script src="basstuner.js" defer></script>
     <script src="main.js" defer></script>
-</head>
+   </head>
 <body>
-    <h1>
-        Bass Tuner
-    </h1>
-    <p class="msg-box">
-        off
-    </p>
-    <div>
-        <canvas>
-
-        </canvas>
-    </div>
+   <audio>audio</audio>
+       
+    <canvas class="visualize">
+      
+    </canvas>
+    <div class="container-keys">
+      <div class="tone-keys"></div>
+      <div class="audio-keys"></div>
+   </div>  
+    <button class="stop">
+      stop
+    </button>
+   
 </body>
+
 </html>

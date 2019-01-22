@@ -1,0 +1,18 @@
+.visualize{
+    display:block;
+    border: 1px solid black;
+    width: 95%;
+    height: 300px;
+}
+.container-keys{
+    width: 100%
+}
+.tone-keys{
+    width: 50%;
+}
+
+.tone-key{
+    width: 25%;
+    height:10%;
+    font-size: 24px;
+}
