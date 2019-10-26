@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+      margin: 0;
+      border: 0;
+      padding: 0;
+  }
 .visualize{
     display:block;
     border: 1px solid black;
@@ -8,11 +17,15 @@
     width: 100%
 }
 .tone-keys{
+    display: inline-block;
     width: 50%;
 }
-
+.audio-keys{
+    display: inline-block;
+    width: 50%;
+}
 .tone-key{
-    width: 25%;
+    width: 20%;
     height:10%;
     font-size: 24px;
 }
